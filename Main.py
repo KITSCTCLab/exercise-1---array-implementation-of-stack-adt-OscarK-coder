@@ -16,14 +16,17 @@ class Stack:
             return True
         else:
             return False
+    
     def push(self, data):
         if not self.is_full():
             # Write code here
         self.items.append(data)
+   
     def pop(self):
         if not self.is_empty():
             # Write code here
-        self.items.pop()    
+            self.items.pop()
+        
     def status(self):
         # Write code here
         for element in sel.items:

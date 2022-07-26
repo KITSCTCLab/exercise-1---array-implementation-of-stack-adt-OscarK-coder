@@ -10,6 +10,7 @@ class Stack:
              return True
         else:
             return False
+        
     def is_full(self):
         # Write code here
         if len(self.items) == self.size:

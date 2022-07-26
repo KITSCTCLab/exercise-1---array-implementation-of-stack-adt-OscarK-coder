@@ -30,7 +30,7 @@ class Stack:
         
     def status(self):
         # Write code here
-        for element in sel.items:
+        for element in self.items:
             print(element)
 
 # Do not change the following code
